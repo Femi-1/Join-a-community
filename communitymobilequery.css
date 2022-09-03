@@ -1,0 +1,123 @@
+/* all rules outside of @media queries apply to devices 1201px and above */
+@media (max-width: 2000px) {/* rules here apply to devices from 993px to 1200px (inclusive) */
+        body{
+            background-color: lightsteelblue;
+        }
+        .div1{
+            border-radius: 10px;
+            width: 60%;
+            background-color: white;
+            align-items: center;
+            margin-left: 20px;
+            margin-top: 50px;
+            margin-right: 20px;
+        
+        }
+        .header1{
+            color: darkcyan;
+            font-family: Arial;
+        }
+        .header4{
+            color: greenyellow;
+        }
+        .paragraph1{
+            color: slategray;
+            font-family: Arial;
+        }
+        /* .sec1{
+            text-align: center;
+        } */
+        .div2{
+            background-color: darkcyan;
+            width: 50%;
+            padding: 20px;
+            font-family: Arial;
+            border-bottom-left-radius: 10px;
+        
+        }
+        .header3{
+            color: white;
+            
+        }
+        .div3{
+            background-color: rgb(115, 205, 205);
+            width: 50%;
+            padding: 20px;
+            font-family: Arial;
+            color: white;
+            border-bottom-right-radius: 10px;
+        } 
+          
+        .paragraph4{
+            color: white;
+            font-size: small;
+        
+        }
+        .paragraph2{
+            color: white;
+        }
+        .paragraph3{
+            color: white;
+        }
+        .combine{
+            background-color: white;
+            display: flex;
+            border-radius: 10px;
+        }
+        .sec1{
+            padding: 20px;
+            /* padding-top: 10px;
+            padding-bottom: 10px; */
+        }
+        button{
+            background-color: rgba(255, 255, 0, 0.702);
+            color: white;
+            border: none;
+            border-radius: 2px;
+            width: 73%;
+            height: 20%;
+        }
+        span{
+            font-size: x-large;
+        }
+}
+@media (max-width: 992px) {	/* rules here apply to devices from 769px to 992px (inclusive) */
+
+}
+@media (max-width: 768px) {/* rules here apply to devices from 0px or 425px to 768px (inclusive) */
+
+}
+@media (max-width: 590px) {/* rules here apply to devices from 0px or 425px to 768px (inclusive) */
+
+    .combine{
+       
+        display: block;
+    }
+    .div2{
+        /* background-color: darkcyan; */
+        width: auto;
+        /* padding: 20px; */
+        /* font-family: Arial; */
+        border-bottom-left-radius: 0px;
+    
+    }
+    .div3{
+        /* background-color: rgb(115, 205, 205); */
+        width: auto;
+        /* padding: 20px;
+        font-family: Arial;
+        color: white;
+        border-bottom-right-radius: 10px; */
+        border-bottom-left-radius: 10px;
+    } 
+}
+
+
+
+/* You may also apply this: */
+@media (max-width: 425px) {/* rules here apply to devices from 0px to 425px (inclusive) */
+    .combine{
+       
+        display: block;
+    }
+}
